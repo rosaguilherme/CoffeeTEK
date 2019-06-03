@@ -14,6 +14,8 @@
 		6A13F96722A466CA00D07D38 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A13F96622A466CA00D07D38 /* UIViewExtensions.swift */; };
 		6A13F96922A4774F00D07D38 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A13F96822A4774F00D07D38 /* LoginViewController.swift */; };
 		6A13F96B22A47ACA00D07D38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A13F96A22A47ACA00D07D38 /* Assets.xcassets */; };
+		BBDC6F0B22A49091004FC03E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC6F0A22A49091004FC03E /* MapViewController.swift */; };
+		BBDC6F0D22A4995E004FC03E /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC6F0C22A4995D004FC03E /* MenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		6A13F96622A466CA00D07D38 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		6A13F96822A4774F00D07D38 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		6A13F96A22A47ACA00D07D38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBDC6F0A22A49091004FC03E /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		BBDC6F0C22A4995D004FC03E /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				6A13F95422A45E4500D07D38 /* AppDelegate.swift */,
 				6A13F95622A45E4500D07D38 /* HomeViewController.swift */,
 				6A13F95822A45E4500D07D38 /* Main.storyboard */,
+				BBDC6F0C22A4995D004FC03E /* MenuViewController.swift */,
+				BBDC6F0A22A49091004FC03E /* MapViewController.swift */,
 				6A13F96822A4774F00D07D38 /* LoginViewController.swift */,
 				6A13F95D22A45E4A00D07D38 /* LaunchScreen.storyboard */,
 				6A13F96022A45E4A00D07D38 /* Info.plist */,
@@ -142,8 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A13F96922A4774F00D07D38 /* LoginViewController.swift in Sources */,
+				BBDC6F0D22A4995E004FC03E /* MenuViewController.swift in Sources */,
 				6A13F95722A45E4500D07D38 /* HomeViewController.swift in Sources */,
 				6A13F96722A466CA00D07D38 /* UIViewExtensions.swift in Sources */,
+				BBDC6F0B22A49091004FC03E /* MapViewController.swift in Sources */,
 				6A13F95522A45E4500D07D38 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
